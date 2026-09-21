@@ -1,4 +1,4 @@
-const CLAVE_ACCESO = "MiClaveSegura2026"; 
+const CLAVE_ACCESO = "ONTIME2026*"; 
 
 document.addEventListener("DOMContentLoaded", () => {
   // Verificar si ya inició sesión
