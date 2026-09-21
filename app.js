@@ -1,3 +1,33 @@
+// Definir la clave de acceso única
+const CLAVE_ACCESO = "MiClaveSegura2026"; 
+
+// Verificar si ya se autenticó previamente en la sesión
+document.addEventListener("DOMContentLoaded", () => {
+  if (sessionStorage.getItem("autenticado") === "true") {
+    document.getElementById("login-modal").style.display = "none";
+  }
+});
+
+function verificarClave() {
+  const claveIngresada = document.getElementById("clave-input").value;
+  const errorMsg = document.getElementById("login-error");
+
+  if (claveIngresada === CLAVE_ACCESO) {
+    sessionStorage.setItem("autenticado", "true");
+    document.getElementById("login-modal").style.display = "none";
+  } else {
+    errorMsg.style.display = "block";
+    document.getElementById("clave-input").value = "";
+  }
+}
+
+// Permitir ingresar presionando la tecla Enter
+document.getElementById("clave-input")?.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    verificarClave();
+  }
+});
+
 // Referencias a elementos HTML
 const searchInput = document.getElementById('searchInput');
 const resultsTable = document.getElementById('resultsTable');
