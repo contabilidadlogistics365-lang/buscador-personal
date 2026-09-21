@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Personal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo Empresa" class="logo">
+      <div>
+        <h1 class="title">Buscador de Personal</h1>
+        <p class="subtitle">Consulta rápida y selección de empleados</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Buscador -->
+    <div class="search-box">
+      <label for="searchInput">🔍 Buscar trabajador por nombre:</label>
+      <input type="text" id="searchInput" placeholder="Escribe un nombre (ej. María)..." autocomplete="off">
+    </div>
+
+    <!-- Acciones de Selección y Contadores -->
+    <div class="actions-bar">
+      <div>
+        <button id="btnSelectAll" class="btn btn-secondary">✅ Seleccionar todos</button>
+        <button id="btnClear" class="btn btn-secondary">🧹 Limpiar selección</button>
+      </div>
+      <div class="counters">
+        <span>Seleccionados: <strong id="selectedCount">0</strong></span> | 
+        <span>Total en base: <strong id="totalCount">0</strong></span>
+      </div>
+    </div>
+
+    <!-- Tabla de Resultados -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Elegir</th>
+            <th>Tipo Doc.</th>
+            <th>Documento</th>
+            <th>Nombre</th>
+          </tr>
+        </thead>
+        <tbody id="resultsTable">
+          <!-- Datos cargados automáticamente desde datos.js -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Área de Resultado y Copiado -->
+    <div class="output-section">
+      <h3>📋 Resultado generado</h3>
+      <textarea id="outputText" readonly placeholder="Aquí aparecerán los datos seleccionados..."></textarea>
+      
+      <div class="output-buttons">
+        <button id="btnCopy" class="btn btn-primary">📋 Copiar resultado</button>
+        <button id="btnExportExcel" class="btn btn-excel">📊 Exportar a Excel</button>
+      </div>
+      <p id="copyMessage" class="copy-message"></p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Creado por Azrail – Contadora Pública. Desarrollo asistido con ChatGPT (OpenAI).</p>
+  </footer>
+
+  <!-- Librería para exportar a Excel y archivos de datos/lógica -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
