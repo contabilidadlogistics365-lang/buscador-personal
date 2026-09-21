@@ -37,13 +37,6 @@ function verificarClave() {
   }
 }
 
-// Permitir ingresar presionando la tecla Enter
-document.getElementById("clave-input")?.addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
-    verificarClave();
-  }
-});
-
 // Referencias a elementos HTML
 const searchInput = document.getElementById('searchInput');
 const resultsTable = document.getElementById('resultsTable');
@@ -137,10 +130,10 @@ btnClear.addEventListener('click', () => {
   actualizarSalida();
 });
 
-// Actualizar salida y contadores
+// Actualizar salida y contadores con numeración automática (1, 2, 3...)
 function actualizarSalida() {
   const listaSeleccionados = trabajadores.filter(t => seleccionados.has(t.documento));
-  const lineas = listaSeleccionados.map(t => `${t.tipoDoc}\t${t.documento}\t${t.nombre}`);
+  const lineas = listaSeleccionados.map((t, index) => `${index + 1}.\t${t.tipoDoc}\t${t.documento}\t${t.nombre}`);
   outputText.value = lineas.join('\n');
   selectedCountEl.textContent = seleccionados.size;
   copyMessage.textContent = '';
@@ -163,7 +156,7 @@ btnCopy.addEventListener('click', () => {
   });
 });
 
-// Exportar a Excel
+// Exportar a Excel con columna de numeración (N°)
 btnExportExcel.addEventListener('click', () => {
   const listaSeleccionados = trabajadores.filter(t => seleccionados.has(t.documento));
   
@@ -172,7 +165,8 @@ btnExportExcel.addEventListener('click', () => {
     return;
   }
 
-  const dataParaExcel = listaSeleccionados.map(t => ({
+  const dataParaExcel = listaSeleccionados.map((t, index) => ({
+    'N°': index + 1,
     'Tipo de documento': t.tipoDoc,
     'Documento': t.documento,
     'Nombre': t.nombre
