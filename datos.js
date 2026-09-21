@@ -1,4 +1,4 @@
-// Actualizado automáticamente el 2026-09-21 09:11
+// Actualizado automáticamente el 2026-09-21 10:32
 const trabajadores = [
   {
     "tipoDoc": "Tipo de documento",
