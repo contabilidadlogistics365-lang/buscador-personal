@@ -1,23 +1,39 @@
-// Definir la clave de acceso única
 const CLAVE_ACCESO = "MiClaveSegura2026"; 
 
-// Verificar si ya se autenticó previamente en la sesión
 document.addEventListener("DOMContentLoaded", () => {
+  // Verificar si ya inició sesión
   if (sessionStorage.getItem("autenticado") === "true") {
-    document.getElementById("login-modal").style.display = "none";
+    const modal = document.getElementById("login-modal");
+    if (modal) modal.style.display = "none";
+  }
+
+  const btnIngresar = document.getElementById("btn-ingresar");
+  const inputClave = document.getElementById("clave-input");
+
+  if (btnIngresar) {
+    btnIngresar.addEventListener("click", verificarClave);
+  }
+
+  if (inputClave) {
+    inputClave.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") {
+        verificarClave();
+      }
+    });
   }
 });
 
 function verificarClave() {
-  const claveIngresada = document.getElementById("clave-input").value;
+  const claveInput = document.getElementById("clave-input");
   const errorMsg = document.getElementById("login-error");
+  const modal = document.getElementById("login-modal");
 
-  if (claveIngresada === CLAVE_ACCESO) {
+  if (claveInput && claveInput.value === CLAVE_ACCESO) {
     sessionStorage.setItem("autenticado", "true");
-    document.getElementById("login-modal").style.display = "none";
+    if (modal) modal.style.display = "none";
   } else {
-    errorMsg.style.display = "block";
-    document.getElementById("clave-input").value = "";
+    if (errorMsg) errorMsg.style.display = "block";
+    if (claveInput) claveInput.value = "";
   }
 }
 
