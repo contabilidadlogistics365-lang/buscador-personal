@@ -1,413 +1,453 @@
-// Actualizado automáticamente el 2026-09-21 10:32
+// Actualizado automáticamente el 2026-09-21 10:33
 const trabajadores = [
   {
-    "tipoDoc": "Tipo de documento",
-    "documento": "Documento",
-    "nombre": "Nombre"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "6024218",
-    "nombre": "JIMENEZ NUÑEZ ANGEL VICTOR"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1085165700",
+    "documento": "CC",
     "nombre": "CAMARGO GALINDO ARGENIS JOSE"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "5505683",
-    "nombre": "HERMAN RODRIGUEZ EDWAR ALBERTO"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "4892827",
-    "nombre": "PIÑA VARGAS ERNESTO JESUS"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1116915740",
+    "documento": "CC",
     "nombre": "AGUDELO GAVIRIA HAIDER STIVEN"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1007688110",
+    "documento": "CC",
     "nombre": "LERMA CAMPO JOSE MANUEL"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1002256166",
+    "documento": "CC",
     "nombre": "LERMA CAMPO JUAN DIEGO"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1022416760",
+    "documento": "CC",
     "nombre": "SALINAS KATTA MICHAEL DAVID"
   },
   {
     "tipoDoc": "CC",
-    "documento": "3008829",
+    "documento": "CC",
     "nombre": "PARRA URQUIJO OMAR DANIEL"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1233513414",
+    "documento": "CC",
     "nombre": "GARCIA HERNANDEZ TINGLENSON"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1053282294",
+    "documento": "CC",
     "nombre": "GARCIA RICARDO"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1065612728",
+    "documento": "CC",
     "nombre": "FLOREZ BARRIOS YEIDER ANDRES"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1047450383",
+    "documento": "CC",
     "nombre": "AVENDAÑO JULIO HECTOR"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1049944468",
+    "documento": "CC",
     "nombre": "CABARCAS JULIO HENRY"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1029143909",
+    "documento": "CC",
     "nombre": "ROMERO RINCON JAIR ANDRES"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1046696169",
+    "documento": "CC",
     "nombre": "LOBO ARIZA JESUS DAVID"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1052993453",
+    "documento": "CC",
     "nombre": "NAVARRO CORTES LUIS ALFONSO"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1052964536",
+    "documento": "CC",
     "nombre": "NAVARRO CORTEZ LUIS MIGUEL"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "6242487",
-    "nombre": "MORENO MILIAN MICHELL RAYSOL 01"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1004352454",
+    "documento": "CC",
     "nombre": "LUIS DAVID CASTRO CASTRO"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "6701275",
-    "nombre": "PADILLA HERNANDEZ ALEXANDER JESUS"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1082494345",
+    "documento": "CC",
     "nombre": "JESUS DANIEL CRUZADO CARO"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "8346680",
-    "nombre": "ANDRES RICARDO CAMEJO TOVAR"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "6230575",
-    "nombre": "RINCON SANTANA MELANY ANDREA"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "19405925",
-    "nombre": "QUINTERO RAMOS MARIA AMPARO"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1003399418",
+    "documento": "CC",
     "nombre": "MARTINEZ LOPEZ LEANIS SOFIA"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "6031717",
-    "nombre": "MORA OSPINO YARELI MARIA"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1131344140",
+    "documento": "CC",
     "nombre": "CAMARGO RAPALINO YOLEINIS MARIA"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "5454463",
-    "nombre": "ACOSTA PARRAGA RUTH DANIELA"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "5743492",
-    "nombre": "JIMENEZ POLANCO MARIANYELI PAOLA"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "5238350",
-    "nombre": "GONZALEZ PARRAGA DAMARIS DEL CARMEN"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "80029465",
+    "documento": "CC",
     "nombre": "SANDOVAL GARCIA ANDRES"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1124506066",
+    "documento": "CC",
     "nombre": "EPIEYU KATIUSKA DEL CARMEN"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "5982758",
-    "nombre": "JONATHAN JOSE CAMACHO PARTIDA"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "5408576",
-    "nombre": "HENRRIQUEZ TERAN REIKENY EDUARDO"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "7891105",
-    "nombre": "MONTOYA CISNERO OMAR JESUS"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1016122075",
+    "documento": "CC",
     "nombre": "ROMERO MARQUEZ LUISANY ALEJANDRA"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "7131341",
-    "nombre": "MEDINA SANGRONIS JUAN VICENTE"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "7179490",
-    "nombre": "GUZMAN HERNANDEZ JOSE DAVID"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "8016097",
-    "nombre": "CASTRO ARISMENDY JORDANIS JOSUE"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "5494365",
-    "nombre": "TROSEL ESPINOZA JONAN ALBERTO"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "6548223",
-    "nombre": "GOYANES SOLANO FRANCO"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "6290957",
-    "nombre": "HENRIQUEZ GUTIERREZ ENDERSON ANTONIO"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1040361111",
+    "documento": "CC",
     "nombre": "DUARTE TUBERQUIA ELISEO ANTONIO"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "7891102",
-    "nombre": "MONTOYA CISNERO CARLOS EDUARDO"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1129564429",
+    "documento": "CC",
     "nombre": "CASSIANI FRUTO CARLOS ALBERTO"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1004507002",
+    "documento": "CC",
     "nombre": "BORRERO GALINDO JOSE RODOLFO"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "5227786",
-    "nombre": "INFANTE SAEZ YULIANGEL DESIRE"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "85452092",
+    "documento": "CC",
     "nombre": "CAMARGO CANTILLO JOAQUIN EDUARDO"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "5698395",
-    "nombre": "PEREZ RAMOS JULIO CESAR"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1085231193",
+    "documento": "CC",
     "nombre": "LOPEZ CAMARGO JOSE ARMANDO"
   },
   {
-    "tipoDoc": "PE",
-    "documento": "8136474",
-    "nombre": "HIDALGO VARGAS FERNANDO JOSE"
-  },
-  {
-    "tipoDoc": "PE",
-    "documento": "1264631",
-    "nombre": "MONTILLA GONZALEZ LIBNI ANTONIO"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1235260022",
+    "documento": "CC",
     "nombre": "GONZALEZ MARTINEZ HARLEI ESTIW"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1043605270",
+    "documento": "CC",
     "nombre": "MONTAÑO MARQUEZ ANTHONY"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "6244033",
-    "nombre": "HERRERA RODRIGUEZ  LUIS ENRIQUE"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "5116455",
-    "nombre": "VARGAS ROJAS KERWIN"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "2255098",
-    "nombre": "WILNER ALEXANDER MARTINEZ ALADEJO"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1043605608",
+    "documento": "CC",
     "nombre": "YAISON JOSE PAYARES VIZCAINO"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1069582659",
+    "documento": "CC",
     "nombre": "JUAN DIEGO ROMERO OVALLE"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1045773496",
+    "documento": "CC",
     "nombre": "ISAAC RAUL RUEDA RIVERA"
   },
   {
     "tipoDoc": "CC",
-    "documento": "8572489",
+    "documento": "CC",
     "nombre": "BLADIMIR VIZCAINO VIZCAINO"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1073517155",
+    "documento": "CC",
     "nombre": "VICTOR SNEYDER MARTINEZ VELASQUEZ"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1000322921",
+    "documento": "CC",
     "nombre": "JASON DANIEL AVILA GALVIS"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "5251290",
-    "nombre": "EDUARDO RAFAEL TIAPA BAUTISTA"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1143381598",
+    "documento": "CC",
     "nombre": "MIGUEL NARVAEZ GARCIA"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1065011661",
+    "documento": "CC",
     "nombre": "JORGE LUIS CARPIO MIRANDA"
   },
   {
     "tipoDoc": "CC",
-    "documento": "1082491506",
+    "documento": "CC",
     "nombre": "DANIEL MAURICIO JIMENEZ ORTEGA"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "6135571",
-    "nombre": "LUIS CARLOS SANCHEZ PIÑA"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1118894175",
+    "documento": "CC",
     "nombre": "GONZALEZ HERNANDEZ HERLIAN ESTIN"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "5982974",
-    "nombre": "CAMACHO GIRON YOHENDRY JOSE"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "6984118",
-    "nombre": "SANTOS CARMONA YORVIS JOSE YUNIOR"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "7555872",
-    "nombre": "CASTILLO SALAS MOISES JOHAN"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "7876364",
-    "nombre": "ROMAN OCTAVIO GUZMAN HERNANDEZ"
-  },
-  {
-    "tipoDoc": "PPT",
-    "documento": "8050227",
-    "nombre": "CRISTOFER EDUARDO HENRRIQUEZ SOLORZANO"
-  },
-  {
     "tipoDoc": "CC",
-    "documento": "1016037557",
+    "documento": "CC",
     "nombre": "JHONY OLAYA SANCHEZ"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "20698673",
+    "tipoDoc": "CC",
+    "documento": "CC",
+    "nombre": "WALTER FABIAN RAMIREZ PAVAS"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "CC",
+    "nombre": "LUIS MIGUEL GUERRA MEJIA"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "CC",
+    "nombre": "GEYSON EDUARDO BERNAL BELTRAN"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "CC",
+    "nombre": "MICHAEL ANDRES SANCHEZ CARDOZO"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "CC",
+    "nombre": "TILSON ANDRES VASQUEZ BLANCO"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "CC",
+    "nombre": "OSNEIDER ENRIQUE OROZCO MONTES"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "JIMENEZ NUÑEZ ANGEL VICTOR"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "HERMAN RODRIGUEZ EDWAR ALBERTO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "PIÑA VARGAS ERNESTO JESUS"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "MORENO MILIAN MICHELL RAYSOL 01"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "PADILLA HERNANDEZ ALEXANDER JESUS"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "ANDRES RICARDO CAMEJO TOVAR"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "RINCON SANTANA MELANY ANDREA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "QUINTERO RAMOS MARIA AMPARO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "MORA OSPINO YARELI MARIA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "ACOSTA PARRAGA RUTH DANIELA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "JIMENEZ POLANCO MARIANYELI PAOLA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "GONZALEZ PARRAGA DAMARIS DEL CARMEN"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "JONATHAN JOSE CAMACHO PARTIDA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "HENRRIQUEZ TERAN REIKENY EDUARDO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "MONTOYA CISNERO OMAR JESUS"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "MEDINA SANGRONIS JUAN VICENTE"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "GUZMAN HERNANDEZ JOSE DAVID"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "CASTRO ARISMENDY JORDANIS JOSUE"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "TROSEL ESPINOZA JONAN ALBERTO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "GOYANES SOLANO FRANCO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "HENRIQUEZ GUTIERREZ ENDERSON ANTONIO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "MONTOYA CISNERO CARLOS EDUARDO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "INFANTE SAEZ YULIANGEL DESIRE"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "PEREZ RAMOS JULIO CESAR"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "HIDALGO VARGAS FERNANDO JOSE"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "MONTILLA GONZALEZ LIBNI ANTONIO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "HERRERA RODRIGUEZ  LUIS ENRIQUE"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "VARGAS ROJAS KERWIN"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "WILNER ALEXANDER MARTINEZ ALADEJO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "EDUARDO RAFAEL TIAPA BAUTISTA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "LUIS CARLOS SANCHEZ PIÑA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "CAMACHO GIRON YOHENDRY JOSE"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "SANTOS CARMONA YORVIS JOSE YUNIOR"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "CASTILLO SALAS MOISES JOHAN"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "ROMAN OCTAVIO GUZMAN HERNANDEZ"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "CRISTOFER EDUARDO HENRRIQUEZ SOLORZANO"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
     "nombre": "DANIEL ELIAS JUARES BETANCOURT"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "6839614",
+    "tipoDoc": "PE",
+    "documento": "PE",
     "nombre": "KELVIN MISAEL PALACIOS GUTIERREZ"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "7638058",
+    "tipoDoc": "PE",
+    "documento": "PE",
     "nombre": "JOSE VIVIANO PITRE PACHECO"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "1127564",
+    "tipoDoc": "PE",
+    "documento": "PE",
     "nombre": "KENNY ANTONIO RINCON CARRIZO"
   },
   {
-    "tipoDoc": "PPT",
-    "documento": "7876353",
+    "tipoDoc": "PE",
+    "documento": "PE",
     "nombre": "EDGARDO ANDRES RON SIFONTES"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "SAMIL JOSE AGUILLON COLINA"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "GILYER DANIEL SANCHEZ RENDILES"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "PE",
+    "nombre": "RISBELY MARIA PAEZ GONZALEZ"
   }
 ];
