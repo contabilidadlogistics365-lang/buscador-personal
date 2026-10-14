@@ -503,5 +503,10 @@ const trabajadores = [
     "tipoDoc": "CC",
     "documento": "1047474745",
     "nombre": "VASQUEZ BLANCO TILSON ANDRES"
+  },
+  {
+    "tipoDoc": "PPT",
+    "documento": "1768913",
+    "nombre": "MOISES ALEJANDRO PIÑA VARGAS"
   }
 ];
