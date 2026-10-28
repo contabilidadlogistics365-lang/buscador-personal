@@ -371,11 +371,6 @@ const trabajadores = [
   },
   {
     "tipoDoc": "PE",
-    "documento": "5189910",
-    "nombre": "PAEZ GONZALEZ RISBELY MARIA"
-  },
-  {
-    "tipoDoc": "PE",
     "documento": "6839614",
     "nombre": "PALACIOS GUTIERREZ KELVIN MISAEL"
   },
@@ -505,8 +500,23 @@ const trabajadores = [
     "nombre": "VASQUEZ BLANCO TILSON ANDRES"
   },
   {
-    "tipoDoc": "PPT",
+    "tipoDoc": "PE",
     "documento": "1768913",
-    "nombre": "MOISES ALEJANDRO PIÑA VARGAS"
+    "nombre": "PIÑA VARGAS MOISES ALEJANDRO"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "1047227653",
+    "nombre": "ROA SUAREZ RICARDO REY"
+  },
+  {
+    "tipoDoc": "PE",
+    "documento": "8100365",
+    "nombre": "MONTERO HEREIRA NEORMARIS ADRIANA"
+  },
+  {
+    "tipoDoc": "CC",
+    "documento": "1045229135",
+    "nombre": "ZURITA TEHERAN ANGEL DAVID"
   }
 ];
